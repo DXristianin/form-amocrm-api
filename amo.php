@@ -12,7 +12,7 @@ if ($email) {
 } else {
     $maildata = "Телефон:".$phone;
 }
-mail("dxristianin@gmail.com", "Заявка с сайта", $maildata );
+mail("order@salesgenerator.pro", "Заявка с сайта", $maildata );
 
 $pipeline_id = 5260237;
 
